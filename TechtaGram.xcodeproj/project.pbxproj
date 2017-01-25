@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA171B281D23E932001B734F /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA171B271D23E932001B734F /* FilterViewController.swift */; };
 		FA49ED3E1D0816300000CF64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA49ED3D1D0816300000CF64 /* AppDelegate.swift */; };
 		FA49ED401D0816300000CF64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA49ED3F1D0816300000CF64 /* ViewController.swift */; };
 		FA49ED431D0816300000CF64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA49ED411D0816300000CF64 /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		FA49ED481D0816300000CF64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA49ED461D0816300000CF64 /* LaunchScreen.storyboard */; };
 		FA49ED531D0816300000CF64 /* TechtaGramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA49ED521D0816300000CF64 /* TechtaGramTests.swift */; };
 		FA49ED5E1D0816300000CF64 /* TechtaGramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA49ED5D1D0816300000CF64 /* TechtaGramUITests.swift */; };
+		FA49ED6D1D0816EC0000CF64 /* shitumon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA49ED6C1D0816EC0000CF64 /* shitumon.png */; };
+		FA7176721D802C190025BF7A /* hoshi.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7176711D802C190025BF7A /* hoshi.png */; };
+		FAE558801DA516640002FC13 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE5587D1DA516640002FC13 /* Default-568h@2x.png */; };
+		FAE558811DA516640002FC13 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE5587E1DA516640002FC13 /* Default-667h@2x.png */; };
+		FAE558821DA516640002FC13 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE5587F1DA516640002FC13 /* Default-736h@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA171B271D23E932001B734F /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 		FA49ED3A1D0816300000CF64 /* TechtaGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechtaGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA49ED3D1D0816300000CF64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA49ED3F1D0816300000CF64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		FA49ED591D0816300000CF64 /* TechtaGramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechtaGramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA49ED5D1D0816300000CF64 /* TechtaGramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechtaGramUITests.swift; sourceTree = "<group>"; };
 		FA49ED5F1D0816300000CF64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA49ED6C1D0816EC0000CF64 /* shitumon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shitumon.png; sourceTree = "<group>"; };
+		FA7176711D802C190025BF7A /* hoshi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hoshi.png; sourceTree = "<group>"; };
+		FAE5587D1DA516640002FC13 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FAE5587E1DA516640002FC13 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		FAE5587F1DA516640002FC13 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +111,11 @@
 			children = (
 				FA49ED3D1D0816300000CF64 /* AppDelegate.swift */,
 				FA49ED3F1D0816300000CF64 /* ViewController.swift */,
+				FA171B271D23E932001B734F /* FilterViewController.swift */,
 				FA49ED411D0816300000CF64 /* Main.storyboard */,
+				FAE5587C1DA516640002FC13 /* Defaults */,
+				FA49ED6C1D0816EC0000CF64 /* shitumon.png */,
+				FA7176711D802C190025BF7A /* hoshi.png */,
 				FA49ED441D0816300000CF64 /* Assets.xcassets */,
 				FA49ED461D0816300000CF64 /* LaunchScreen.storyboard */,
 				FA49ED491D0816300000CF64 /* Info.plist */,
@@ -123,6 +139,16 @@
 				FA49ED5F1D0816300000CF64 /* Info.plist */,
 			);
 			path = TechtaGramUITests;
+			sourceTree = "<group>";
+		};
+		FAE5587C1DA516640002FC13 /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				FAE5587D1DA516640002FC13 /* Default-568h@2x.png */,
+				FAE5587E1DA516640002FC13 /* Default-667h@2x.png */,
+				FAE5587F1DA516640002FC13 /* Default-736h@3x.png */,
+			);
+			path = Defaults;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +219,7 @@
 				TargetAttributes = {
 					FA49ED391D0816300000CF64 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ES3DJDNZ42;
 					};
 					FA49ED4D1D0816300000CF64 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -231,7 +258,12 @@
 			files = (
 				FA49ED481D0816300000CF64 /* LaunchScreen.storyboard in Resources */,
 				FA49ED451D0816300000CF64 /* Assets.xcassets in Resources */,
+				FAE558811DA516640002FC13 /* Default-667h@2x.png in Resources */,
+				FAE558821DA516640002FC13 /* Default-736h@3x.png in Resources */,
+				FA49ED6D1D0816EC0000CF64 /* shitumon.png in Resources */,
 				FA49ED431D0816300000CF64 /* Main.storyboard in Resources */,
+				FA7176721D802C190025BF7A /* hoshi.png in Resources */,
+				FAE558801DA516640002FC13 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA171B281D23E932001B734F /* FilterViewController.swift in Sources */,
 				FA49ED401D0816300000CF64 /* ViewController.swift in Sources */,
 				FA49ED3E1D0816300000CF64 /* AppDelegate.swift in Sources */,
 			);
@@ -399,10 +432,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TechtaGram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lit.TechtaGram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -410,10 +445,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TechtaGram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lit.TechtaGram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -482,6 +519,7 @@
 				FA49ED641D0816300000CF64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA49ED651D0816300000CF64 /* Build configuration list for PBXNativeTarget "TechtaGramTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +528,7 @@
 				FA49ED671D0816300000CF64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA49ED681D0816300000CF64 /* Build configuration list for PBXNativeTarget "TechtaGramUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +537,7 @@
 				FA49ED6A1D0816300000CF64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
